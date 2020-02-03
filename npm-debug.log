@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Nodist\\v-x64\\8.11.1\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Nodist\\npmv\\4.0.5\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@4.0.5
+3 info using node@v8.11.1
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle kopipe@1.0.0~predev: kopipe@1.0.0
+6 silly lifecycle kopipe@1.0.0~predev: no script for predev, continuing
+7 info lifecycle kopipe@1.0.0~dev: kopipe@1.0.0
+8 verbose lifecycle kopipe@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle kopipe@1.0.0~dev: PATH: C:\Program Files (x86)\Nodist\npmv\4.0.5\bin\node-gyp-bin;D:\Dropbox\vue\kopipe\node_modules\.bin;C:\Program Files (x86)\Nodist\v-x64\8.11.1;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ruby200\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\EmEditor;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Chocolatey\bin;C:\PROGRA~2\Oracle\VirtualBox;C:\Users\campanella\AppData\Roaming\npm;C:\Cygwin;C:\Program Files\Oracle\VirtualBox;C:\Program Files (x86)\vim\bin;C:\Program Files (x86)\Subversion\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Nodist\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\campanella\AppData\Local\Microsoft\WindowsApps
+10 verbose lifecycle kopipe@1.0.0~dev: CWD: D:\Dropbox\vue\kopipe
+11 silly lifecycle kopipe@1.0.0~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --inline --progress --config build/webpack.dev.conf.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at Object._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:183:18)
+12 verbose stack     at process.listener (C:\Program Files (x86)\Nodist\npmv\4.0.5\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:111:20)
+12 verbose stack     at process.emit (events.js:208:7)
+12 verbose stack     at processEmit (C:\Program Files (x86)\Nodist\npmv\4.0.5\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Program Files (x86)\Nodist\npmv\4.0.5\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:208:44)
+13 verbose cwd D:\Dropbox\vue\kopipe
+14 error Windows_NT 10.0.17134
+15 error argv "C:\\Program Files (x86)\\Nodist\\v-x64\\8.11.1\\node.exe" "C:\\Program Files (x86)\\Nodist\\npmv\\4.0.5\\bin\\npm-cli.js" "run" "dev"
+16 error node v8.11.1
+17 error npm  v4.0.5
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
